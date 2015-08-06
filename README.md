@@ -6,6 +6,7 @@ This repository contains an automated **Dockerfile** of [HHVM](http://hhvm.com/)
 
 + `latest`
 + `3.7.2` (Base image nginx:1.9.2)
++ `3.8.1` (Base image nginx:1.9.2)
 
 ### Base Docker Image
 
