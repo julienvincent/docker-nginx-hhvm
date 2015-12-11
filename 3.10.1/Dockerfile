@@ -11,7 +11,7 @@ RUN echo deb http://dl.hhvm.com/debian jessie main | tee /etc/apt/sources.list.d
 
 RUN apt-get clean && \
     apt-get update && \
-    apt-get install -y hhvm cron && \
+    apt-get install -y hhvm && \
     apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Update Config
